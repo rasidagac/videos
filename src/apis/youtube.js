@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const KEY = "AIzaSyCxC3EWQgbrtBoDrnfei3RLSfjGQIf-zmA";
+const KEY = process.env.REACT_APP_YOUTUBE_API;
 
 export default axios.create({
 	baseURL: "https://www.googleapis.com/youtube/v3",
